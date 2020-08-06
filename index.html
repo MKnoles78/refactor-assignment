@@ -1,16 +1,19 @@
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
+    <!-- updated from website title to name of the company  -->
 </head>
 
 <body>
-    <div class="header">
+    <!-- changed information from a div to header  -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
+            <!-- updated from a div to a nav  -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,11 +25,11 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="hero"></div>
 
-    <div class="content">
+    <content>
         <!-- fixed link from top of screen by adding id reference  -->
         <!-- consolidated class into one titled whatwedo  -->
         <div id="search-engine-optimization" class="whatwedo">
@@ -50,38 +53,39 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
+    </content>
     <!-- consolidated benefits into one class, removed the divs between each since all appear in one block-->
     <div class="benefits">
-    
+    <!-- updated all images with alt tags to allow for image reading  -->
         <div class="benefit-list">
             <h3>Lead Generation</h3>
-                <img src="./assets/images/lead-generation.png" />
+                <img src="./assets/images/lead-generation.png"  alt="Note book with SEO written on top with laptop and coffee." />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
            
             <h3>Brand Awareness</h3>
-                <img src="./assets/images/brand-awareness.png" />
+                <img src="./assets/images/brand-awareness.png" alt="Opened laptop with Reputation and increasing bar chart."/>
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             
             <h3>Cost Management</h3>
-                <img src="./assets/images/cost-management.png"></img>
+                <img src="./assets/images/cost-management.png" alt="Table with thought bubbles with social media icons in them."/>
+                <!-- removed closing img tag because it's not necessary with img tag -->
                 <p>
                     As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
                 </p>
              
         </div>
     </div>
-        
-    <div class="footer">
+        <!-- updated footer div to just footer  -->
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
