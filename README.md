@@ -23,7 +23,7 @@ If you need an example of a good README, check out [the VSCode repository](https
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
-* [UserStory] (#userstory)
+* [User Story](#userstory)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
@@ -47,7 +47,7 @@ In order to install this assignment, you'll need to clone a repositorty.  Once y
 
 This is a basic webpage.  You can click on the links which will take you to components within the webpage.  No other functionality currently available on the site.
 
-![Refactor Assignment](images/refactor.gif)
+![Refactor Assignment](assets/images/refactor.gif)
 
 ## Credits
 
