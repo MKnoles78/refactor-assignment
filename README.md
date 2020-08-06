@@ -12,11 +12,22 @@ For this task you have to refactor an existing webpage to make it accessible. An
 
 To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-Helpful links for writing a good README can be found below.
+Helpful links for writing a good README as well as information on HTML Semantic Elements and understanding refactoring can be found below.
+
 
 If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
 
 If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+
+For better understanding semantic HTML from W3 schools [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp).
+
+For better understanding semantic HTML from mozilla [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
+Information for understanding the importance of refactoring [Refactoring Reference](http://www.cs.unc.edu/~stotts/COMP723-s15/refactor/).
+
+Another link for understanding refactoring [Refactoring Reference Within Agile Development](http://www.cs.unc.edu/~stotts/COMP723-s15/refactor/)
+
+
 
 
 ## Table of Contents (Optional)
